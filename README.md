@@ -112,3 +112,12 @@ Collecting dcllottery
 Installing collected packages: dcllottery
 Successfully installed dcllottery-0.1
 ```
+
+Örnek bir kullanım için aşağıdaki kodu kullanabilirsiniz:
+
+```python
+import dcllottery.utils as dcl
+
+numbers = dcl.get_lottery_numbers(1,60,6)
+print(numbers)
+```
