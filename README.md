@@ -90,4 +90,15 @@ adding 'dcllottery-0.1.dist-info/RECORD'
 removing build\bdist.win-amd64\wheel
 ```
 
+Artık dağıtım dosyalarını https://pypi.org sitesine taşıyabiliriz:
 
+```bash 
+$ python -m twine upload  dist/*
+Uploading distributions to https://upload.pypi.org/legacy/
+Enter your password:
+Uploading dcllottery-0.1-py3-none-any.whl
+100%|████████████████████████████████████████████████████████████████████| 6.06k/6.06k [00:02<00:00, 2.25kB/s]
+
+View at:
+https://pypi.org/project/dcllottery/0.1/
+```
