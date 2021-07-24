@@ -1,2 +1,2 @@
-print("deepcloudlabs module is loaded!")
+print("dcllottery package is loaded!")
 # all initialization code goes here
