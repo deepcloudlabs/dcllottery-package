@@ -37,7 +37,7 @@ setuptools.setup(
     python_requires=">=3.6",
  )
  ```
-**setup.py** betiğini çalıştırabilmiş için iki paketin kurulu olması gerekiyor: **setuptools** ve **wheel**. Eğer kurulu değil iseler aşağıdaki verildiği şekilde bu iki paketi kurabilirsiniz:
+**setup.py** betiğini çalıştırabilmek için iki paketin kurulu olması gerekiyor: **setuptools** ve **wheel**. Eğer kurulu değil iseler aşağıdaki verildiği şekilde bu iki paketi kurabilirsiniz:
 
 ```bash
 $ pip install setuptools wheel
