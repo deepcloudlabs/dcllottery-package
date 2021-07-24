@@ -37,8 +37,19 @@ setuptools.setup(
     python_requires=">=3.6",
  )
  ```
- 
- **setup.py** dosyasını çalıştırarak dağıtım dosylarını oluşturabilirsiniz:
+**setup.py** betiğini çalıştırabilmiş için iki paketin kurulu olması gerekiyor: **setuptools** ve **wheel**. Eğer kurulu değil iseler aşağıdaki verildiği şekilde bu iki paketi kurabilirsiniz:
+
+```bash
+$ pip install setuptools wheel
+Collecting setuptools
+  Using cached setuptools-57.4.0-py3-none-any.whl (819 kB)
+Collecting wheel
+  Using cached wheel-0.36.2-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel, setuptools
+Successfully installed setuptools-57.4.0 wheel-0.36.2
+```
+
+**setup.py** dosyasını çalıştırarak dağıtım dosylarını oluşturabilirsiniz:
 
 ```bash 
 $ python setup.py bdist_wheel
