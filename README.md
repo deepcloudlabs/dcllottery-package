@@ -95,10 +95,20 @@ Artık dağıtım dosyalarını https://pypi.org sitesine taşıyabiliriz:
 ```bash 
 $ python -m twine upload  dist/*
 Uploading distributions to https://upload.pypi.org/legacy/
-Enter your password: *<your password>*
+Enter your password: *your password*
 Uploading dcllottery-0.1-py3-none-any.whl
 100%|████████████████████████████████████████████████████████████████████| 6.06k/6.06k [00:02<00:00, 2.25kB/s]
 
 View at:
 https://pypi.org/project/dcllottery/0.1/
+```
+
+Artık herhangi bir proje içinden bu pakete ulaşabilirsiniz:
+
+```bash
+$ pip install dcllottery
+Collecting dcllottery
+  Using cached dcllottery-0.1-py3-none-any.whl (3.0 kB)
+Installing collected packages: dcllottery
+Successfully installed dcllottery-0.1
 ```
