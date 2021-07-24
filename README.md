@@ -84,9 +84,10 @@ adding 'dcllottery/utils.py'
 adding 'dcllottery-0.1.data/scripts/dcl-lottery'
 adding 'dcllottery-0.1.dist-info/LICENSE'
 adding 'dcllottery-0.1.dist-info/METADATA'
-```
 adding 'dcllottery-0.1.dist-info/WHEEL'
 adding 'dcllottery-0.1.dist-info/top_level.txt'
 adding 'dcllottery-0.1.dist-info/RECORD'
 removing build\bdist.win-amd64\wheel
+```
+
 
